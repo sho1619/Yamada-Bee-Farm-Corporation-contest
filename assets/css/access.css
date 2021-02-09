@@ -1,0 +1,130 @@
+@charset "UTF-8";
+.header.header-access {
+    background: url(../img/access/1522.JPG) no-repeat center center/cover;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.lead{
+    padding:30px 0;
+}
+
+@media print, screen and (min-width:768px){
+    .lead{
+        width: 800px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.lead-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-size: bold;
+    line-height: 1.2;
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.menu{
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    list-style: none;
+}
+
+@media print, screen and (min-width:768px){
+    .menu-wrap{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+     }
+    .menu{
+        width: 33.33%;
+        padding: 0 30px;
+        margin-bottom: 60px;
+        border-bottom: none;
+    }
+}
+
+
+.menu-img{
+    margin-bottom: 20px;
+}
+
+.menu-name-en{
+    font-size: 20px;
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.menu-name-ja{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.menu-price{
+    font-size: 14px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content:space-between;
+}
+
+.menu-price ＋ .menu-price{
+    margin-top: 5px;
+}
+
+.menu-category{
+    margin-bottom: 60px;
+}
+
+@media print, screen and (min-width: 768px) {
+    .menu-category {
+      margin: 0 -30px 60px;       
+    }
+  }
+
+  .section01 {
+    background-color: #444;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+  #gallery {
+    margin:auto;
+    padding-top: 40px;
+    width: 500px;
+}
+
+#gallery .main img {
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 14px #000;
+    width: 100%;
+}
+
+#gallery .main p {
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#gallery .thumb img {
+    border: 4px solid #fff;
+    border-radius: 400px;
+    box-shadow: 0px 0px 10px #000;
+    height: 60px;
+    margin: 10px;
+    width: 60px;
+}
